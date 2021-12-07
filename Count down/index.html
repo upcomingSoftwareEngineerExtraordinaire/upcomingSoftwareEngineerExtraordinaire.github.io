@@ -1,0 +1,30 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>How long can you hold your breath?</h1>
+    <h3>Enter if thou dare:</h3>
+    <button id="hold" onclick="start()">
+      <img src="/img/door-open-solid.svg" />
+    </button>
+    <div>
+      <div class="count">
+        <h1 id="count">120</h1>
+      </div>
+    </div>
+    <button id="give-up" onclick="giveUp()">Just give it up!</button>
+    <p id="failure"></p>
+    <p id="result"></p>
+    <button id="reset" onclick="reset()">Reset</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
